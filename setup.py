@@ -8,7 +8,7 @@ setup(
     author_email='naraspjp@outlook.com',
     url='https://github.com/naraspjp/ofertas',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['request', 'bs4', 'pandas'],
     classifiers=[
         'Programming Language :: Python :: 3.7',
     ],
